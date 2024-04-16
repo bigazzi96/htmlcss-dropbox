@@ -1,13 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;   
+}
 
+body{
+    font-family: "Open Sans", sans-serif;
+}
 header{
     padding: 1rem 1rem;
-    
-    background-color: white;  
+    background-color: white;
 }
 
 ul{
@@ -34,28 +36,22 @@ header nav ul > li {
     color: white;
 }
 
-main section #jumbotron{ 
-height: 800px;
-background-color: #b4d0e7;
-padding-top: 2rem;
-padding-bottom: 1rem;
+main section#jumbotron{
+    background-color: rgba(180,208,231,255);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
-#jumbotron div.content{
+div.jumbotron-container{
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    padding-top: 2rem;
-    padding-bottom: 1rem; 
-    background-color: rgb(180,208,231);  
 }
 
 .jumbotron-container{
     max-width: 800px;
     margin: 0 auto;
-    
 }
 
-div.content img{
-    width: 80%;
-}
+
+
