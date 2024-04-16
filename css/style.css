@@ -46,12 +46,44 @@ div.jumbotron-container{
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .jumbotron-container{
     max-width: 800px;
     margin: 0 auto;
+
+}
+
+section.partner{
+    
+    display: flex;
+    max-width:900px;
+    margin: 0 auto;
+    margin-top: 2rem;
 }
 
 
+.image-dropbox img{
+    width: 100%;
+}
 
+.container-testo{
+width: 30%;
+padding-top: 2rem;
+padding-left: 2rem
+}
+
+.image-dropbox{
+    width: 70%;
+}
+
+container-testo input{
+margin-top: 1rem;
+
+}
+
+
+.container-testo .trova-un-partner{
+    margin-top:1rem
+}
