@@ -87,3 +87,25 @@ margin-top: 1rem;
 .container-testo .trova-un-partner{
     margin-top:1rem
 }
+
+
+section.business{
+    margin: 0 auto;
+    max-width: 900%;
+    
+}
+
+.pacchetti-centrali{
+height: 100%;
+width: 100%;
+display: flex;
+}
+
+.pacchetto{
+border: solid grey 1px;  
+}
+
+
+header {
+    border: solid grey 1px;    
+}
