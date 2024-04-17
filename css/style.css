@@ -143,15 +143,17 @@ section.operazioni{
 }
 
 div.operazioni-parte-alta{
-   width: 100%;
-   display: flex; 
-   justify-content: space-between; 
+    width: 100%;
+    display: flex; 
+    justify-content: space-between; 
+    padding-top: 3rem;
 }
 
 div.operazioni-parte-bassa{
     display: flex;
     width: 100%;
     justify-content: space-between;
+    padding-top: 3rem;
     
 }
 .operazioni-parte-alta article{
@@ -170,11 +172,10 @@ img{
     width: 100%;
 }
 
-   
+
 
 div.operazioni-parte-bassa img{
     width: 100%;
-   
 
 }
 
@@ -183,4 +184,64 @@ div.operazioni-parte-bassa img{
 footer{
     background-color: black;
     color: white;    
+}
+
+
+
+div.team{
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+div.team h3{
+    width: 60%;
+    font-size: 2rem;
+}
+
+div.team h6{
+    width: 30%;
+    padding-top: 2rem;
+}
+
+
+section.domande{
+    max-width: 900px;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+
+section.domande h3{
+    text-align: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px grey solid;
+}
+
+div.differenza{
+    width: 100%;
+    display: flex;
+    padding-top: 1rem;
+    border-bottom: 1px grey solid;
+}
+
+div.simbolo{
+    padding-left: 30%;
+}
+
+footer{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+section.liste-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    }
+}
+
+section.liste h3{
+    padding-bottom: 3rem;
 }
