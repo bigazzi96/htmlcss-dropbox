@@ -29,7 +29,7 @@ header nav ul > li {
     margin-right: 1rem;
 }
 
-.botton-blue{
+header .botton-blue{
     width: 50px;
     height: 30px;
     background-color: #0061ff;
@@ -91,21 +91,70 @@ margin-top: 1rem;
 
 section.business{
     margin: 0 auto;
-    max-width: 900%;
+    max-width: 1000px;
     
 }
 
 .pacchetti-centrali{
 height: 100%;
-width: 100%;
+width: calc(100% / 3 - 20px);
 display: flex;
+padding-bottom: 2rem;
 }
 
 .pacchetto{
-border: solid grey 1px;  
+border: solid rgba(220,220,222,255) 1px;  
+height: 100%;
+margin: 1rem;
+padding-bottom: 1rem;
 }
 
 
-header {
-    border: solid grey 1px;    
+header{
+    border: solid rgba(220,220,222,255) 1px;   
+    text-align: center;
+}
+
+div.content{
+    padding-top: 2rem;
+}
+
+input.botton-blue-pacchetti{
+    background-color:#0061ff;
+    color: white;
+    width: 100%;
+}
+
+section.header-testo-business{
+    text-align: center;
+}
+
+
+
+div.container-operazioni h1{
+    text-align: center;
+    font-size: 2rem;
+}
+
+section.operazioni{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section.operazioni-parte-alta{
+   width: 100%;  
+}
+.operazioni-parte-alta article{
+    width: calc((100% - 90px) / 3);
+}
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;    
 }
