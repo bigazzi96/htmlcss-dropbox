@@ -139,18 +139,44 @@ div.container-operazioni h1{
 section.operazioni{
     max-width: 900px;
     margin: 0 auto;
+    padding-top: 4rem;
 }
 
-section.operazioni-parte-alta{
-   width: 100%;  
+div.operazioni-parte-alta{
+   width: 100%;
+   display: flex; 
+   justify-content: space-between; 
+}
+
+div.operazioni-parte-bassa{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
 }
 .operazioni-parte-alta article{
     width: calc((100% - 90px) / 3);
 }
 
+section.operazioni h1{
+    text-align: center;
+}
 
 
+.operazioni-parte-bassa article{
+    width: calc((100% - 90px) / 3);
+}
+img{
+    width: 100%;
+}
 
+   
+
+div.operazioni-parte-bassa img{
+    width: 100%;
+   
+
+}
 
 
 
