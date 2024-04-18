@@ -35,11 +35,25 @@ header .botton-blue{
     background-color: #0061ff;
     color: white;
 }
+.content jumbotron-container botton-blue{
+    border-bottom: solid 3px rgb(0,97,255);
+    background-color: rgb(0,97,255);
+    color: white;
+    font-size: 1rem;
+    width: 34%;
+    height: 3rem;
+    }
+
+    .container-testo-business h1{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
 
 main section#jumbotron{
     background-color: rgba(180,208,231,255);
     padding-top: 2rem;
     padding-bottom: 1rem;
+
 }
 
 div.jumbotron-container{
@@ -49,6 +63,11 @@ div.jumbotron-container{
     
 }
 
+#jumbotron h1{
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+}
 .jumbotron-container{
     max-width: 800px;
     margin: 0 auto;
@@ -91,8 +110,8 @@ margin-top: 1rem;
 
 section.business{
     margin: 0 auto;
-    max-width: 1000px;
-    
+    max-width: 900px;
+    padding-top: 2rem;
 }
 
 .pacchetti-centrali{
@@ -209,6 +228,7 @@ section.domande{
     max-width: 900px;
     margin: 0 auto;
     padding-bottom: 3rem;
+    padding-top: 3rem;
 }
 
 section.domande h3{
@@ -233,6 +253,10 @@ footer{
     margin: 0 auto;
 }
 
+div.lista h3{
+    padding-bottom: 1rem;
+}
+
 section.liste-footer{
     width: 100%;
     display: flex;
@@ -245,3 +269,86 @@ section.liste-footer{
 section.liste h3{
     padding-bottom: 3rem;
 }
+
+section.container-sponsor{
+    width: 1400px;
+    margin: 0 auto;  
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+div.sponsor img{
+    width: 50%;
+    
+}
+
+div.sponsors-sinistro{
+width: 30%;
+display: flex;
+}
+
+div.sponsors-destro{
+    width: 30%;
+
+}
+
+div.sponsor-centrale{
+    width: 40%;
+}
+
+.sponsor-centrale img{
+width: 70%;
+}
+
+
+section.banner{
+width: 100%;
+background-color: rgba(180,208,231,255);
+color: rgba(97,8,43,255);
+}
+
+.banner h3{
+    width: 50%;
+}
+
+.banner input{
+    width: 30%;
+}
+
+.designit{
+background-color:rgba(162,211,155,255);
+}
+
+.arizona{
+    background-color: rgba(97,8,43,255);
+}
+
+.florida{
+    background-color: rgba(0,147,206,255);
+}
+
+.topps{
+    background-color: rgba(255,28,28,255);
+}
+
+.sponsor-centrale{
+    background-color: rgba(245,245,245,255);
+}
+
+.bicycle{
+background-color:rgba(213,0,31,255);
+}
+
+.hearst{
+    background-color: rgba(180,208,231,255);
+}
+
+.lonely{
+    background-color: rgba(13,36,129,255);
+}
+
+.channel{
+    background-color:rgba(255,216,48,255);
+}
+
